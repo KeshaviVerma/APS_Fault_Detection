@@ -1,0 +1,3 @@
+APP_HOST = "0.0.0.0"  #This means that the application will be accessible from any network interface on the host machine. It allows the application to accept incoming requests from any IP address, making it suitable for deployment in various environments, including local development and production servers.     
+APP_PORT = 8080     #This is the port number on which the application will listen for incoming requests. In this case, it is set to 8080, which is a common choice for web applications. You can change this port number if you want to run multiple applications on the same host or if you have specific requirements for your application.   
+
