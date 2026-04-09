@@ -1,3 +1,26 @@
 pymongo[srv]==4.2.0
+pandas
+numpy
+scikit-learn
+pymongo
+python-dotenv
+PyYAML
+dill
+certifi
+scipy
+imblearn==0.0
+xgboost
+dnspython
+evidently
+fastapi
+httptools
+mypy-boto3-s3
+pip-chill
+types-s3transfer
+uvicorn
+watchfiles
+websockets
+wincertstore
+neuro-mf
 
 -e . #editable mode
