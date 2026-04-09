@@ -63,4 +63,4 @@ AWS_ECR_LOGIN_URI = 546494700170.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = aps_fault_detection
 
-MONGO_DB_URL=mongodb+srv://KeshaviVerma:Kishu#2502@cluster.6uynrcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster
+MONGO_DB_URL=
