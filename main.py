@@ -135,6 +135,11 @@ async def predict_route(file: UploadFile = File(...)):
         # Predict
         y_pred = model.predict(df)
 
+        for pred in y_pred:
+            if pred == 1:
+                print("APS Failure Detected")
+            else:
+                print("No Failure Detected in APS")
         df['predicted_column'] = y_pred
 
         df['predicted_column'] = df['predicted_column'].replace(
